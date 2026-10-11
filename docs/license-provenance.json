@@ -1,0 +1,8 @@
+{
+  "url": "https://gitlab.com/ohwr/project/cernohl/-/raw/master/licence_texts/cern_ohl_p_v2.txt",
+  "sha256": "998bbda42e05647f92645d2cb0f230e74a857251d45a00b872ba46c273236a7e",
+  "bytes": 9051,
+  "retrieved": "2026-10-10",
+  "included_from": "Published RayCouplers reference package; exact byte match to its recorded official retrieval",
+  "verified_locally": "2026-10-11"
+}

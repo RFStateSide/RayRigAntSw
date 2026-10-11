@@ -1,0 +1,33 @@
+RayRigAntSw — RF StateSide LLC
+Copyright RF StateSide LLC.
+SPDX-License-Identifier: CERN-OHL-P-2.0
+
+Original RF StateSide hardware contributions and associated engineering source
+documentation are provided under CERN Open Hardware Licence Version 2 —
+Permissive. See the unmodified LICENSE. Retain applicable notices and make them
+accessible as required by that license.
+
+Public Engineering Reference — AS-IS. No engineering performance warranty,
+certification, guaranteed fitness, guaranteed RF power handling, future
+development or technical support is promised. Builders are responsible for
+evaluating their implementations and applicable safety requirements. The license
+governs its warranty and liability terms; these statements do not amend it or
+assert that all liability is eliminated.
+
+Modification record: 2026-10-11, P2-prep-01. Retained the existing corrected
+D1–D5 circuit, PCB routing, placement and artwork. Localized embedded symbols
+and footprints, reconciled project/title/revision identifiers, corrected the
+eight-position connector value and footprint-selection metadata, omitted
+optional 3D models, and generated matching manufacturing/reference outputs.
+Historic v2.0 artwork remains. P2-prep-01 is not a new physically tested revision.
+
+Modification record: 2026-10-11, standalone documentation revision. Updated
+developer-facing documentation, confirmed original custom-footprint authorship,
+separated internal review records and consolidated public audit evidence.
+Electrical design and manufacturing data remain unchanged.
+
+Third-party library rights are separate. See docs/provenance.md and
+hardware/libraries/README.md. RF StateSide's original custom footprints do not
+erase obligations for retained upstream KiCad material. This notice does not
+license unrelated parent firmware, vendor assets or third-party software.
+

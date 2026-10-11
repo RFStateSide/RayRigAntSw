@@ -1,0 +1,9 @@
+Designator,Quantity,Value,Footprint,Package,MPN,DNP,Mount_Type,Description,Manufacturer,Supplier,Supplier_PN,Status
+"C1, C2, C3, C4, C5",5,.01 µF,RayRigAntSw:CAPRR500W50L730T250H650,,B32529C0103K289,,tht,CAP FILM 10000PF 10% 63VDC RAD,EPCOS - TKD Electronics,DigiKey,495-2460-1-ND,Historical procurement reference; verify suitability and availability
+C6,1,47 µF,RayRigAntSw:CAPRR500W50L730T250H650,,RDEC71E476MWK1H03B,,tht,47 µF ±20% 25V Ceramic Capacitor X7S Radial,Murata,DigiKey,490-16956-ND,Historical procurement reference; verify suitability and availability
+"D1, D2, D3, D4, D5",5,1N5819,RayRigAntSw:D_DO-41_SOD81_P10.16mm_Horizontal,,1N5819-TP,,tht,"40V 1A Schottky Barrier Rectifier Diode, DO-41",MCC,DigiKey,1N5819-TPCT-ND,Historical procurement reference; verify suitability and availability
+"J1, J2, J3, J4, J5",5,Conn_UHF,RayRigAntSw:SO_239,,PE45478,,tht,,Pasternack,DigiKey,6099-PE45478-ND,Historical procurement reference; verify suitability and availability
+"J6, J7",2,RCJ-021,RayRigAntSw:CUI_RCJ-021,,RCJ-021,,tht,CONN RCA JACK MONO 3.2MM PCB,Same Sky,DigiKey,CP-1406-ND,Historical procurement reference; verify suitability and availability
+J8,1,Screw_Terminal_01x08,"RayRigAntSw:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal",,OSTVN08A150,,tht,"Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)",On Shore Technology,DigiKey,ED10566-ND,Historical procurement reference; verify suitability and availability
+"K1, K2, K3, K4, K5",5,G2RL-1-E,RayRigAntSw:Relay_SPDT_Omron_G2RL-1-E,,G2RL-14-E DC12,,tht,RELAY GEN PURPOSE SPDT 16A 12V,Omron,DigiKey,Z2920-ND,Historical procurement reference; verify suitability and availability
+"J9, J10, J11",3,PCB connection pads,RayRigAntSw:Conn_Tp1 (J9/J10); RayRigAntSw:Conn_Pad_Tp (J11),,,No separately populated part,,,,,,Integral PCB features; wire connections per integration guide

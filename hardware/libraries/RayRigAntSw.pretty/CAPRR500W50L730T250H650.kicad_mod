@@ -1,0 +1,244 @@
+(footprint "CAPRR500W50L730T250H650"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.15 180)
+		(layer "F.SilkS")
+		(uuid "878abdc8-ed35-4209-a1c6-93a6aece8e46")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "47 µF"
+		(at 10.705 2.335 180)
+		(layer "F.Fab")
+		(uuid "ed3be6dc-9e7a-45b6-bbe5-ab5563b5e71c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "dfcf0fbc-c592-45a4-b868-cc2dadf56c2e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "47 µF ±20% 25V Ceramic Capacitor X7S Radial"
+		(at 0 0 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b61900f-de86-4ed7-a077-86c89271967e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Manufacturer" "Murata"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0a3db41b-8754-446b-9e43-2a6e2a799861")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "RDEC71E476MWK1H03B"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e6f584b-7d4a-4ef9-bc1e-998f9d09df2b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier" "DigiKey"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e764c12c-bddc-4ece-aa8c-157447c5ba1d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Supplier_PN" "490-16956-ND"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f1424c7a-6a26-4894-944e-80c1e8ab7f9f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.65 -1.25)
+		(end -3.65 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "39986cee-6c4b-4097-b564-bda3060b4cbe")
+	)
+	(fp_line
+		(start -3.65 -1.25)
+		(end 3.65 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b71fb786-1ebd-4466-86d0-680b9c29d37e")
+	)
+	(fp_line
+		(start -3.65 1.25)
+		(end 3.65 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6db91891-0c60-435f-9153-286d4540672d")
+	)
+	(fp_line
+		(start 3.65 -1.25)
+		(end 3.65 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "31da4b56-4707-4c9e-8456-889a0e2c3d3b")
+	)
+	(fp_line
+		(start -3.9 -1.5)
+		(end -3.9 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "43873d66-7ce5-4da6-ab09-4d72f56d91b2")
+	)
+	(fp_line
+		(start -3.9 -1.5)
+		(end 3.9 -1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12b92d73-f987-42dc-abe3-cfe7446a2a08")
+	)
+	(fp_line
+		(start 3.9 -1.5)
+		(end 3.9 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "910b25c3-a8a0-4efa-a612-bc03fba5d072")
+	)
+	(fp_line
+		(start 3.9 1.5)
+		(end -3.9 1.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ac0e4e6f-0ffe-457e-9962-322b83d3f17b")
+	)
+	(fp_line
+		(start -3.65 -1.25)
+		(end -3.65 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e2090acb-546d-4bef-bbd3-c823c914952c")
+	)
+	(fp_line
+		(start -3.65 -1.25)
+		(end 3.65 -1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eac098af-aa04-439f-aaa8-b640fcd9dda2")
+	)
+	(fp_line
+		(start 3.65 -1.25)
+		(end 3.65 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "e386202d-25c2-4177-9f08-52da3af617d6")
+	)
+	(fp_line
+		(start 3.65 1.25)
+		(end -3.65 1.25)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "46e5e00c-3cc6-4522-8956-b03c2ede16d8")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 0)
+		(size 1.1 1.1)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9fdd686a-0b20-444b-830a-e940680b8fd1")
+	)
+	(pad "2" thru_hole circle
+		(at 2.5 0)
+		(size 1.1 1.1)
+		(drill 0.75)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bb25b604-a12d-4932-97ba-36b3cb21550d")
+	)
+	(embedded_fonts no)
+)

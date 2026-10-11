@@ -1,0 +1,5517 @@
+(kicad_sch
+  (version 20250114)
+  (generator "eeschema")
+  (generator_version "9.0")
+  (uuid "67ef746c-0f2c-466b-bed7-afff600e2a8c")
+  (paper "A4")
+  (title_block
+    (title "RayRigAntSw")
+    (date "2026-10-11")
+    (rev "P2-prep-01")
+    (company "RF StateSide, LLC")
+    (comment 1 "Corrected existing design; release preparation, not a new tested revision"))
+  (lib_symbols
+    (symbol "RayRigAntSw:Screw_Terminal_01x08"
+      (pin_names
+        (offset 1.016)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "J"
+        (at 0 10.16 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "Screw_Terminal_01x08"
+        (at 0 -12.7 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "screw terminal"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_fp_filters" "RayRigAntSw:*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "Screw_Terminal_01x08_1_1"
+        (rectangle
+          (start -1.27 8.89)
+          (end 1.27 -11.43)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background)))
+        (polyline
+          (pts
+            (xy -0.5334 7.9502)
+            (xy 0.3302 7.112))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.5334 5.4102)
+            (xy 0.3302 4.572))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.5334 2.8702)
+            (xy 0.3302 2.032))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.5334 0.3302)
+            (xy 0.3302 -0.508))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.5334 -2.2098)
+            (xy 0.3302 -3.048))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.5334 -4.7498)
+            (xy 0.3302 -5.588))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.5334 -7.2898)
+            (xy 0.3302 -8.128))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.5334 -9.8298)
+            (xy 0.3302 -10.668))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.3556 8.128)
+            (xy 0.508 7.2898))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.3556 5.588)
+            (xy 0.508 4.7498))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.3556 3.048)
+            (xy 0.508 2.2098))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.3556 0.508)
+            (xy 0.508 -0.3302))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.3556 -2.032)
+            (xy 0.508 -2.8702))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.3556 -4.572)
+            (xy 0.508 -5.4102))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.3556 -7.112)
+            (xy 0.508 -7.9502))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.3556 -9.652)
+            (xy 0.508 -10.4902))
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 7.62)
+          (radius 0.635)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 5.08)
+          (radius 0.635)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 2.54)
+          (radius 0.635)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 0)
+          (radius 0.635)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 -2.54)
+          (radius 0.635)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 -5.08)
+          (radius 0.635)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 -7.62)
+          (radius 0.635)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 -10.16)
+          (radius 0.635)
+          (stroke
+            (width 0.1524)
+            (type default))
+          (fill
+            (type none)))
+        (pin passive line
+          (at -5.08 7.62 0)
+          (length 3.81)
+          (name "Pin_1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 5.08 0)
+          (length 3.81)
+          (name "Pin_2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 2.54 0)
+          (length 3.81)
+          (name "Pin_3"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 0 0)
+          (length 3.81)
+          (name "Pin_4"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 -2.54 0)
+          (length 3.81)
+          (name "Pin_5"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 -5.08 0)
+          (length 3.81)
+          (name "Pin_6"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "6"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 -7.62 0)
+          (length 3.81)
+          (name "Pin_7"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "7"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 -10.16 0)
+          (length 3.81)
+          (name "Pin_8"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "8"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "RayRigAntSw:C"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0.254))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "C"
+        (at 0.635 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "C"
+        (at 0.635 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" ""
+        (at 0.9652 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "Unpolarized capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "cap capacitor"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_fp_filters" "RayRigAntSw:*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "C_0_1"
+        (polyline
+          (pts
+            (xy -2.032 0.762)
+            (xy 2.032 0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -2.032 -0.762)
+            (xy 2.032 -0.762))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "C_1_1"
+        (pin passive line
+          (at 0 3.81 270)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 0 -3.81 90)
+          (length 2.794)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "RayRigAntSw:1N5819"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 1.016)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "D"
+        (at 0 2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "1N5819"
+        (at 0 -2.54 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" "RayRigAntSw:D_DO-41_SOD81_P10.16mm_Horizontal"
+        (at 0 -4.445 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "diode Schottky"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_fp_filters" "RayRigAntSw:*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "1N5819_0_1"
+        (polyline
+          (pts
+            (xy -1.905 0.635)
+            (xy -1.905 1.27)
+            (xy -1.27 1.27)
+            (xy -1.27 -1.27)
+            (xy -0.635 -1.27)
+            (xy -0.635 -0.635))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.27 1.27)
+            (xy 1.27 -1.27)
+            (xy -1.27 0)
+            (xy 1.27 1.27))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy -1.27 0))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "1N5819_1_1"
+        (pin passive line
+          (at -3.81 0 0)
+          (length 2.54)
+          (name "K"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 3.81 0 180)
+          (length 2.54)
+          (name "A"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "RayRigAntSw:MountingHole_Pad"
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 1.016)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom no)
+      (on_board yes)
+      (property "Reference" "H"
+        (at 0 6.35 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "MountingHole_Pad"
+        (at 0 4.445 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "Mounting Hole with connection"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "mounting hole"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_fp_filters" "RayRigAntSw:*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "MountingHole_Pad_0_1"
+        (circle
+          (center 0 1.27)
+          (radius 1.27)
+          (stroke
+            (width 1.27)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "MountingHole_Pad_1_1"
+        (pin input line
+          (at 0 -2.54 90)
+          (length 2.54)
+          (name "1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "RayRigAntSw:RCJ-021_1"
+      (pin_names
+        (offset 0.254))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "J7"
+        (at 19.05 0.0001 0)
+        (effects
+          (font
+            (size 1.524 1.524))
+          (justify left)))
+      (property "Value" "RCJ-021"
+        (at 19.05 -2.5399 0)
+        (effects
+          (font
+            (size 1.524 1.524))
+          (justify left)
+          (hide yes)))
+      (property "Footprint" "RayRigAntSw:CUI_RCJ-021"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+            (italic yes))
+          (hide yes)))
+      (property "Datasheet" "https://www.cuidevices.com/product/resource/rcj-02.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27)
+            (italic yes))
+          (hide yes)))
+      (property "Description" "CONN RCA JACK MONO 3.2MM PCB"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Manufacturer" "Same Sky"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "MPN" "RCJ-021"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Supplier" "DigiKey"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Supplier_PN" "CP-1406-ND"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_locked" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "ki_keywords" "RCJ-021"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_fp_filters" "RayRigAntSw:*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "RCJ-021_1_1_1"
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 5.08 -5.08))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 5.08 0)
+            (xy 10.795 0))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 5.08 -2.54)
+            (xy 16.51 -2.54))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 5.08 -5.08)
+            (xy 17.78 -5.08))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 10.795 0)
+            (xy 12.065 -1.27))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 13.335 0)
+            (xy 12.065 -1.27))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 15.875 1.27)
+            (xy 15.875 -1.27))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 15.875 1.27)
+            (xy 17.145 1.27))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 15.875 -1.27)
+            (xy 17.145 -1.27))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 16.51 -2.54)
+            (xy 16.51 -1.27))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 17.145 1.27)
+            (xy 17.145 -1.27))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 17.78 2.54)
+            (xy 5.08 2.54))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 17.78 -5.08)
+            (xy 17.78 2.54))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (pin unspecified line
+          (at 0 0 0)
+          (length 5.08)
+          (name "2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin unspecified line
+          (at 0 -2.54 0)
+          (length 5.08)
+          (name "1A"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1A"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin unspecified line
+          (at 0 -5.08 0)
+          (length 5.08)
+          (name "1B"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1B"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (symbol "RCJ-021_1_1_2"
+        (polyline
+          (pts
+            (xy 5.08 2.54)
+            (xy 5.08 -5.08))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 5.08 -5.08)
+            (xy 12.7 -5.08))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 5.08 0))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 0.8467))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 10.16 0)
+            (xy 8.89 -0.8467))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 5.08 -2.54))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -1.6933))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 10.16 -2.54)
+            (xy 8.89 -3.3867))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 12.7 2.54)
+            (xy 5.08 2.54))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 12.7 -5.08)
+            (xy 12.7 2.54))
+          (stroke
+            (width 0.127)
+            (type default))
+          (fill
+            (type none)))
+        (pin unspecified line
+          (at 0 0 0)
+          (length 5.08)
+          (name "1"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin unspecified line
+          (at 0 -2.54 0)
+          (length 5.08)
+          (name "2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "RayRigAntSw:Conn_UHF"
+      (pin_names
+        (offset 1.016)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "J"
+        (at 0.254 3.048 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Value" "Conn_UHF"
+        (at 2.921 0 90)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Datasheet" "~"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "coaxial connector (UHF, N-Type)"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_fp_filters" "RayRigAntSw:*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "Conn_UHF_0_1"
+        (polyline
+          (pts
+            (xy -2.54 0)
+            (xy -0.508 0))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (arc
+          (start -1.778 0.508)
+          (mid 0.2221 1.8084)
+          (end 1.778 0)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (circle
+          (center 0 0)
+          (radius 0.508)
+          (stroke
+            (width 0.2032)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "Conn_UHF_1_1"
+        (arc
+          (start 1.778 0)
+          (mid 0.222 -1.8079)
+          (end -1.778 -0.508)
+          (stroke
+            (width 0.254)
+            (type solid))
+          (fill
+            (type none)))
+        (pin passive line
+          (at -5.08 0 0)
+          (length 2.54)
+          (name "In"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -1.27 3.81 270)
+          (length 2.54)
+          (name "5"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "5"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -1.27 -3.81 90)
+          (length 2.54)
+          (name "2"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 1.27 3.81 270)
+          (length 2.54)
+          (name "4"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "4"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 1.27 -3.81 90)
+          (length 2.54)
+          (name "3"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "3"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "RayRigAntSw:G2RL-1-E"
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "K"
+        (at 11.43 3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Value" "G2RL-1-E"
+        (at 11.43 1.27 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)))
+      (property "Footprint" "RayRigAntSw:Relay_SPDT_Omron_G2RL-1-E"
+        (at 11.43 -1.27 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (justify left)
+          (hide yes)))
+      (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "General Purpose Low Profile Relay SPDT Through Hole High Capacity, Omron G2RL series, 16A 250VAC"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "Single Pole Relay SPDT Omron High Capacity"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_fp_filters" "RayRigAntSw:*"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "G2RL-1-E_0_0"
+        (polyline
+          (pts
+            (xy 7.62 5.08)
+            (xy 7.62 2.54)
+            (xy 6.985 3.175)
+            (xy 7.62 3.81))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "G2RL-1-E_0_1"
+        (rectangle
+          (start -10.16 5.08)
+          (end 10.16 -5.08)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type background)))
+        (rectangle
+          (start -8.255 1.905)
+          (end -1.905 -1.905)
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -7.62 -1.905)
+            (xy -2.54 1.905))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 5.08)
+            (xy -5.08 1.905))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -5.08 -5.08)
+            (xy -5.08 -1.905))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -1.905 0)
+            (xy -1.27 0))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy -0.635 0)
+            (xy 0 0))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0.635 0)
+            (xy 1.27 0))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 1.905 0)
+            (xy 2.54 0))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 2.54 5.08)
+            (xy 2.54 2.54)
+            (xy 3.175 3.175)
+            (xy 2.54 3.81))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type outline)))
+        (polyline
+          (pts
+            (xy 3.175 0)
+            (xy 3.81 0))
+          (stroke
+            (width 0.254)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 5.08 -2.54)
+            (xy 3.175 3.81))
+          (stroke
+            (width 0.508)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 5.08 -2.54)
+            (xy 5.08 -5.08))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "G2RL-1-E_1_1"
+        (pin passive line
+          (at -5.08 7.62 270)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A1"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at -5.08 -7.62 90)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "A2"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 2.54 7.62 270)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "12"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 5.08 -7.62 90)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "11"
+            (effects
+              (font
+                (size 1.27 1.27)))))
+        (pin passive line
+          (at 7.62 7.62 270)
+          (length 2.54)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "14"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "RayRigAntSw:+12V"
+      (power)
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#PWR"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Value" "+12V"
+        (at 0 3.556 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "Power symbol creates a global label with name \"+12V\""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "global power"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "+12V_0_1"
+        (polyline
+          (pts
+            (xy -0.762 1.27)
+            (xy 0 2.54))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0 2.54)
+            (xy 0.762 1.27))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none)))
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 2.54))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "+12V_1_1"
+        (pin power_in line
+          (at 0 0 90)
+          (length 0)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no))
+    (symbol "RayRigAntSw:GND"
+      (power)
+      (pin_numbers
+        (hide yes))
+      (pin_names
+        (offset 0)
+        (hide yes))
+      (exclude_from_sim no)
+      (in_bom yes)
+      (on_board yes)
+      (property "Reference" "#PWR"
+        (at 0 -6.35 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Value" "GND"
+        (at 0 -3.81 0)
+        (effects
+          (font
+            (size 1.27 1.27))))
+      (property "Footprint" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Datasheet" ""
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (property "ki_keywords" "global power"
+        (at 0 0 0)
+        (effects
+          (font
+            (size 1.27 1.27))
+          (hide yes)))
+      (symbol "GND_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 -1.27)
+            (xy 1.27 -1.27)
+            (xy 0 -2.54)
+            (xy -1.27 -1.27)
+            (xy 0 -1.27))
+          (stroke
+            (width 0)
+            (type default))
+          (fill
+            (type none))))
+      (symbol "GND_1_1"
+        (pin power_in line
+          (at 0 0 270)
+          (length 0)
+          (name "~"
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (number "1"
+            (effects
+              (font
+                (size 1.27 1.27))))))
+      (embedded_fonts no)))
+  (text "RIG-1 PTT"
+    (exclude_from_sim no)
+    (at 206.756 59.182 0)
+    (effects
+      (font
+        (size 1.27 1.27)))
+    (uuid "3aec643f-9615-4f55-80c4-bd92d9f46c4f"))
+  (text "ANT-2"
+    (exclude_from_sim no)
+    (at 35.052 76.2 0)
+    (effects
+      (font
+        (size 1.27 1.27)))
+    (uuid "57951394-8495-4a48-92b9-2899ea0b4be2"))
+  (text "RIG-1"
+    (exclude_from_sim no)
+    (at 206.248 101.6 0)
+    (effects
+      (font
+        (size 1.27 1.27)))
+    (uuid "82d5729a-f125-4aac-b1ad-f5feec63e4e3"))
+  (text "ANT-3"
+    (exclude_from_sim no)
+    (at 34.798 50.8 0)
+    (effects
+      (font
+        (size 1.27 1.27)))
+    (uuid "a8e1e713-e9d6-4709-9359-ff38c99a9508"))
+  (text "RIG-2 PTT"
+    (exclude_from_sim no)
+    (at 206.756 43.942 0)
+    (effects
+      (font
+        (size 1.27 1.27)))
+    (uuid "edf16a31-f877-448a-970c-db331f90b09c"))
+  (text "RIG-2"
+    (exclude_from_sim no)
+    (at 206.502 76.2 0)
+    (effects
+      (font
+        (size 1.27 1.27)))
+    (uuid "fad0f284-9aec-4104-a277-9795c3b9d10b"))
+  (text "ANT-1"
+    (exclude_from_sim no)
+    (at 35.052 101.6 0)
+    (effects
+      (font
+        (size 1.27 1.27)))
+    (uuid "fff8596d-ee80-4b60-8374-8e402130c28c"))
+  (junction
+    (at 162.56 109.22)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "1927420d-1dac-4bac-af76-85225115f216"))
+  (junction
+    (at 46.99 80.01)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "1c13964e-3f35-4f75-9dfa-933c55122ae9"))
+  (junction
+    (at 179.07 63.5)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "27156fd6-8a70-4f44-a574-3f47c707e0a4"))
+  (junction
+    (at 111.76 109.22)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "2e1eacad-e702-4204-93db-a75b390b9c8b"))
+  (junction
+    (at 196.85 97.79)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "439c488b-812a-4999-95c3-3633215d0532"))
+  (junction
+    (at 140.97 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "45478c3c-03ad-4ee3-8da0-de339d3a8757"))
+  (junction
+    (at 72.39 77.47)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "4d5a30c6-3625-492c-8b7a-bf8667a51cf3"))
+  (junction
+    (at 46.99 97.79)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "4f899da3-b831-4815-ba94-6284887910a1"))
+  (junction
+    (at 148.59 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "6bab8ad1-4dcd-41bf-9fa6-5a2a30af428e"))
+  (junction
+    (at 179.07 48.26)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "71028591-25d6-427c-b9d8-1c6a901c575b"))
+  (junction
+    (at 196.85 80.01)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "7bed773e-84cd-455b-96cc-cfc72993cd50"))
+  (junction
+    (at 97.79 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "82cdac1b-99e2-4682-be07-f2e34ce38b20"))
+  (junction
+    (at 90.17 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "898fbba9-53d5-4c72-9850-8a43290383a3"))
+  (junction
+    (at 196.85 105.41)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "9486034e-fad1-48e9-82e4-de26d05fe2fb"))
+  (junction
+    (at 115.57 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "9ab1830b-6c7c-4358-a204-7cb2803c9c2f"))
+  (junction
+    (at 137.16 109.22)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "9bfa55b3-3a30-49d8-afde-65017c415cbc"))
+  (junction
+    (at 123.19 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "ad86c444-2ef0-4898-8f35-455a8f45cb9d"))
+  (junction
+    (at 86.36 109.22)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "b24fc0f9-176b-4339-b677-3fb196c4f965"))
+  (junction
+    (at 166.37 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "b26d739c-a738-4554-a735-20bee802f051"))
+  (junction
+    (at 196.85 72.39)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "c01d7c25-cfe9-4a99-a4a2-389ab50cc1d2"))
+  (junction
+    (at 46.99 46.99)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "de3d4bbc-06e2-4ed8-b214-4e19079b2882"))
+  (junction
+    (at 46.99 105.41)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "e4ad6cb0-1c72-43ad-9d7b-50d58f854746"))
+  (junction
+    (at 46.99 72.39)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "e5bbdff3-6d17-4d19-a4b8-e0b19619f983"))
+  (junction
+    (at 60.96 63.5)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "e7768614-dc1f-4d74-8d8d-8ed42be9d9b0"))
+  (junction
+    (at 46.99 54.61)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "e7907f51-2fe6-4617-aea3-cfa7a7722e89"))
+  (junction
+    (at 173.99 123.19)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "f1c9e4b3-b6fa-452c-a839-48b1f0821bc4"))
+  (junction
+    (at 64.77 77.47)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "fbdf0ff0-2c6e-4563-b49c-1eb14be1bf2d"))
+  (junction
+    (at 142.24 50.8)
+    (diameter 0)
+    (color 0 0 0 0)
+    (uuid "fd3a6594-6b68-41b3-aff0-12fd059ba056"))
+  (wire
+    (pts
+      (xy 86.36 109.22)
+      (xy 86.36 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "016234dd-363d-4cb5-9af3-009b911c0874"))
+  (wire
+    (pts
+      (xy 162.56 109.22)
+      (xy 162.56 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "050759de-42b0-4583-bdca-d00bf4987cab"))
+  (wire
+    (pts
+      (xy 177.8 109.22)
+      (xy 177.8 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "050c570e-3fc1-40dc-b0a2-2bf7d0539a00"))
+  (wire
+    (pts
+      (xy 179.07 60.96)
+      (xy 179.07 63.5))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0534529a-eb96-4a0f-a91a-5a1e3d964b87"))
+  (wire
+    (pts
+      (xy 90.17 123.19)
+      (xy 90.17 135.89))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "05a49d67-e520-48be-b3c3-076b7aa7368c"))
+  (wire
+    (pts
+      (xy 166.37 123.19)
+      (xy 166.37 135.89))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "07756d0e-877f-43f1-b55e-76aa819dabca"))
+  (wire
+    (pts
+      (xy 111.76 123.19)
+      (xy 115.57 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0b84032a-2dcd-4da2-87c0-d72f4952fd09"))
+  (wire
+    (pts
+      (xy 194.31 105.41)
+      (xy 196.85 105.41))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0e1d441a-d597-4d66-817d-7d6f50153ce3"))
+  (wire
+    (pts
+      (xy 97.79 123.19)
+      (xy 97.79 135.89))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "0f23c4a8-35dc-4d09-91ee-5b862d28d842"))
+  (wire
+    (pts
+      (xy 109.22 109.22)
+      (xy 111.76 109.22))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "11ac4929-070d-48db-9762-bbf780fdaf7c"))
+  (wire
+    (pts
+      (xy 137.16 109.22)
+      (xy 137.16 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "1487dadd-f7b6-41ae-85cf-c918cf8f600a"))
+  (wire
+    (pts
+      (xy 194.31 97.79)
+      (xy 196.85 97.79))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "16ad1b7d-dc95-4bf7-af07-c893ba02b91c"))
+  (wire
+    (pts
+      (xy 50.8 76.2)
+      (xy 54.61 76.2))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2d0c0192-a250-47fa-8082-5b3bebc3127c"))
+  (wire
+    (pts
+      (xy 44.45 72.39)
+      (xy 46.99 72.39))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2dd6f42b-1a8a-44c9-a150-55823a864ba9"))
+  (wire
+    (pts
+      (xy 101.6 109.22)
+      (xy 101.6 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "2fda7397-8a39-4bc8-90d9-185f5ac91a6f"))
+  (wire
+    (pts
+      (xy 185.42 76.2)
+      (xy 190.5 76.2))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "33ebc30a-7f9d-42d7-8f49-dea759cc36a7"))
+  (wire
+    (pts
+      (xy 101.6 123.19)
+      (xy 97.79 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "3607af25-254a-4a21-9739-6e24b75b5d4f"))
+  (wire
+    (pts
+      (xy 101.6 99.06)
+      (xy 111.76 99.06))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "37037a30-f07d-46df-9a3a-a1bd8543dede"))
+  (wire
+    (pts
+      (xy 111.76 109.22)
+      (xy 111.76 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "41d8cbd3-bee2-4948-9b9f-385a94335d13"))
+  (wire
+    (pts
+      (xy 76.2 53.34)
+      (xy 81.28 53.34))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "41e1f845-9bac-4b0c-a7d1-bb4ed0774457"))
+  (wire
+    (pts
+      (xy 64.77 77.47)
+      (xy 64.77 90.17))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "43d1c119-8e40-4f5f-8706-82b3382a31e9"))
+  (wire
+    (pts
+      (xy 152.4 109.22)
+      (xy 152.4 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "44c09a54-ccde-46ea-b274-ffef10d624e4"))
+  (wire
+    (pts
+      (xy 81.28 53.34)
+      (xy 81.28 96.52))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "47f5f267-8538-4c2c-a902-8abbd5c2ca88"))
+  (wire
+    (pts
+      (xy 50.8 50.8)
+      (xy 60.96 50.8))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "490de83e-e76f-4435-be87-c62672bcc344"))
+  (wire
+    (pts
+      (xy 76.2 63.5)
+      (xy 76.2 77.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "54c5f19c-1732-4ed4-aabb-db99502eb056"))
+  (wire
+    (pts
+      (xy 160.02 109.22)
+      (xy 162.56 109.22))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "56df3c05-5b44-4698-9f89-d4833689b526"))
+  (wire
+    (pts
+      (xy 44.45 46.99)
+      (xy 46.99 46.99))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "56e025e2-2d6a-4d1b-b0cf-7f23d4a6d35c"))
+  (wire
+    (pts
+      (xy 162.56 123.19)
+      (xy 166.37 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "57726345-0b76-4f86-bf3a-847fd9799347"))
+  (wire
+    (pts
+      (xy 137.16 87.63)
+      (xy 137.16 96.52))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "59dd93ff-4e19-4789-be8a-f66d8956801f"))
+  (wire
+    (pts
+      (xy 177.8 96.52)
+      (xy 185.42 96.52))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "5fa9a53c-cfa7-4828-91ea-4ce8e8bae32d"))
+  (wire
+    (pts
+      (xy 83.82 109.22)
+      (xy 86.36 109.22))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "65c72438-6f3a-4d99-a535-630a3442dab1"))
+  (wire
+    (pts
+      (xy 148.59 123.19)
+      (xy 148.59 135.89))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "67a2410e-76c4-4c35-b1b9-54c20d7ad646"))
+  (wire
+    (pts
+      (xy 44.45 97.79)
+      (xy 46.99 97.79))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "685eebc5-3314-4e67-b446-4b081328699f"))
+  (wire
+    (pts
+      (xy 60.96 55.88)
+      (xy 54.61 55.88))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6d735428-6138-4025-96ab-4210d24e9814"))
+  (wire
+    (pts
+      (xy 194.31 80.01)
+      (xy 196.85 80.01))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6d8a81fc-1b26-49b3-9683-fd3a58baf047"))
+  (wire
+    (pts
+      (xy 54.61 55.88)
+      (xy 54.61 76.2))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "6de3b3b6-df16-46f7-91db-20d422f59c57"))
+  (wire
+    (pts
+      (xy 152.4 123.19)
+      (xy 148.59 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "719107d7-708f-4a5c-bb00-31418ecd36cf"))
+  (wire
+    (pts
+      (xy 137.16 123.19)
+      (xy 140.97 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "74a79101-1912-40a5-81f9-bfcf1c43c499"))
+  (wire
+    (pts
+      (xy 50.8 101.6)
+      (xy 86.36 101.6))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "79a95fb8-2f1a-4970-8093-420f43e43024"))
+  (wire
+    (pts
+      (xy 44.45 105.41)
+      (xy 46.99 105.41))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "89f40054-0452-4ba7-ac80-79c8ce206ab3"))
+  (wire
+    (pts
+      (xy 173.99 123.19)
+      (xy 173.99 135.89))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9398629a-bbf3-42c5-b4c8-dfbf73d6db69"))
+  (wire
+    (pts
+      (xy 177.8 123.19)
+      (xy 173.99 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "983d20a8-8635-4da2-9c93-0363a509e2f6"))
+  (wire
+    (pts
+      (xy 127 109.22)
+      (xy 127 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "9cc1a67a-1b0d-40e1-85b7-036f490f3f2e"))
+  (wire
+    (pts
+      (xy 137.16 50.8)
+      (xy 142.24 50.8))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a2b78d04-5d3e-4a46-9630-1c9e82ef300e"))
+  (wire
+    (pts
+      (xy 177.8 101.6)
+      (xy 190.5 101.6))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "a47080d0-540b-48d1-a7c1-e7e3193a6520"))
+  (wire
+    (pts
+      (xy 86.36 123.19)
+      (xy 90.17 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "aa2336bc-a877-4610-bbfa-e9543eb63636"))
+  (wire
+    (pts
+      (xy 123.19 123.19)
+      (xy 123.19 135.89))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "add3793b-f8f1-4a8a-b08c-9cb52dfb454b"))
+  (wire
+    (pts
+      (xy 118.11 50.8)
+      (xy 119.38 50.8))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b43c94d5-b795-440e-8ae3-8d8b4b8d9b16"))
+  (wire
+    (pts
+      (xy 44.45 54.61)
+      (xy 46.99 54.61))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b489e4e8-3995-489d-ac43-2110a6fd0aba"))
+  (wire
+    (pts
+      (xy 127 101.6)
+      (xy 137.16 101.6))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b53dc9a8-b2a4-470a-89ca-aa282291edd5"))
+  (wire
+    (pts
+      (xy 134.62 109.22)
+      (xy 137.16 109.22))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b68063ac-d410-47cc-985e-a965b727982a"))
+  (wire
+    (pts
+      (xy 58.42 63.5)
+      (xy 60.96 63.5))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "b687494a-a22f-460e-9389-ec3e24a5dcd7"))
+  (wire
+    (pts
+      (xy 86.36 109.22)
+      (xy 87.63 109.22))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bb6ca78b-e583-444e-9ab3-8adb8cb1bafe"))
+  (wire
+    (pts
+      (xy 127 87.63)
+      (xy 127 96.52))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bf5dddc3-7250-4dbb-ad70-627c92b9302f"))
+  (wire
+    (pts
+      (xy 72.39 77.47)
+      (xy 72.39 90.17))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "bf7ead3a-e092-4ca7-ad08-1f0f5d07e936"))
+  (wire
+    (pts
+      (xy 152.4 99.06)
+      (xy 162.56 99.06))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "cc65ce7f-9cb1-49be-95b4-ef911d0edcf3"))
+  (wire
+    (pts
+      (xy 140.97 123.19)
+      (xy 140.97 135.89))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d4c5c731-6f3a-44e7-9c1a-5f520a051330"))
+  (wire
+    (pts
+      (xy 127 123.19)
+      (xy 123.19 123.19))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "d7ecc7d1-4e3b-423a-adfa-eaff976360aa"))
+  (wire
+    (pts
+      (xy 60.96 63.5)
+      (xy 60.96 77.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e07833ab-e8e7-475a-b37f-d63d81424140"))
+  (wire
+    (pts
+      (xy 185.42 96.52)
+      (xy 185.42 76.2))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e65ebc1e-4cb5-425f-b5f7-af2a085aef85"))
+  (wire
+    (pts
+      (xy 81.28 96.52)
+      (xy 86.36 96.52))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "e8f6a752-957a-459b-bff1-368a84f64be6"))
+  (wire
+    (pts
+      (xy 194.31 72.39)
+      (xy 196.85 72.39))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "ea38f63e-fd93-48c0-b978-52c0883bf3c9"))
+  (wire
+    (pts
+      (xy 179.07 45.72)
+      (xy 179.07 48.26))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "eb69236a-b5c9-4571-9f08-b8ad23b0fa08"))
+  (wire
+    (pts
+      (xy 76.2 77.47)
+      (xy 72.39 77.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "eee0fdca-c22d-439c-b5ec-34f84db32ac4"))
+  (wire
+    (pts
+      (xy 44.45 80.01)
+      (xy 46.99 80.01))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f2faef2d-82f9-40dd-9652-2d5727d73826"))
+  (wire
+    (pts
+      (xy 115.57 123.19)
+      (xy 115.57 135.89))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "f36bc33c-d130-49ed-a7e7-80c3d51eaa7c"))
+  (wire
+    (pts
+      (xy 60.96 77.47)
+      (xy 64.77 77.47))
+    (stroke
+      (width 0)
+      (type default))
+    (uuid "fbe1c23f-6e8b-45b1-a26e-5dd2928e0b92"))
+  (global_label "RIG_AB"
+    (shape input)
+    (at 177.8 123.19 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "007b2a92-49c8-42fc-afab-179a76b187e1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 177.8 132.6462 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "RFlow"
+    (shape output)
+    (at 137.16 87.63 0)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify left))
+    (uuid "2cde108f-a915-479a-ae07-83c89a758af3")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 145.6485 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes))))
+  (global_label "ANT_R1"
+    (shape input)
+    (at 101.6 123.19 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "45328f78-9a54-49f9-8884-b71de1c101c7")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 101.6 133.009 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "ANT_R1"
+    (shape input)
+    (at 121.92 50.8 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "5d0a2f9d-dffe-4075-aefb-4511dbecfa10")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 121.92 60.619 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "ANT_R2"
+    (shape input)
+    (at 76.2 77.47 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "7782006e-5904-4024-b64d-ad25a09b0f52")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 76.2 87.289 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "PTT-1"
+    (shape input)
+    (at 179.07 58.42 180)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "8d2a5f1e-6a50-4ebb-a773-874d46751b4e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 170.0977 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "TXRX"
+    (shape input)
+    (at 152.4 123.19 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "be6a7b40-b922-4d55-9b6d-4922a30922f3")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 152.4 130.8318 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "PTT-2"
+    (shape input)
+    (at 134.62 50.8 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "c1e0f8e2-55b2-49c3-a801-b44f98cfdc68")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 134.62 59.7723 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "ANT_R2"
+    (shape input)
+    (at 124.46 50.8 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "c55be2fd-086c-4be3-bdbf-1a7cf126b91d")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 124.46 60.619 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "TXRX"
+    (shape input)
+    (at 127 50.8 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "c6cffd25-bf0a-46d4-b092-e079f6e35742")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 127 58.4418 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "RFhigh"
+    (shape input)
+    (at 127 87.63 180)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "cebb004f-fd1a-4449-935c-1550178e20d2")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 117.6044 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "TXRX"
+    (shape input)
+    (at 127 123.19 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "cf8549e9-9b29-4854-b565-6afba5453f4e")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 127 130.8318 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "PTT-2"
+    (shape input)
+    (at 179.07 43.18 180)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "dae6ec7c-7762-4573-b821-13d1e25c96e1")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 170.0977 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "PTT-1"
+    (shape input)
+    (at 132.08 50.8 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "dcbdfc69-344c-40a6-82d0-7dc32dc0d824")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 132.08 59.7723 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (global_label "RIG_AB"
+    (shape input)
+    (at 129.54 50.8 270)
+    (fields_autoplaced yes)
+    (effects
+      (font
+        (size 1.27 1.27))
+      (justify right))
+    (uuid "f040cb13-69a1-4ef9-97e9-b0200b7fdd86")
+    (property "Intersheetrefs" "${INTERSHEET_REFS}"
+      (at 129.54 60.2562 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify right)
+        (hide yes))))
+  (symbol
+    (lib_id "RayRigAntSw:C")
+    (at 119.38 135.89 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "05bdb854-0a98-4fbe-8f2d-6f72c23373c9")
+    (property "Reference" "C3"
+      (at 119.38 128.27 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ".01 µF"
+      (at 119.38 130.81 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:CAPRR500W50L730T250H650"
+      (at 123.19 134.9248 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
+      (at 119.38 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "CAP FILM 10000PF 10% 63VDC RAD"
+      (at 119.38 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "EPCOS - TKD Electronics"
+      (at 119.38 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "B32529C0103K289"
+      (at 119.38 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 119.38 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "495-2460-1-ND"
+      (at 119.38 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "2"
+      (uuid "082fcc7a-0b21-4772-802a-051f68799b41"))
+    (pin "1"
+      (uuid "a54c9d84-2a16-46cd-8b99-c7f83cec3a1d"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "C3")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:Conn_UHF")
+    (at 45.72 50.8 0)
+    (mirror y)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "067f9fac-00c5-4443-9d9d-2182be7b292d")
+    (property "Reference" "J1"
+      (at 43.18 49.5296 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "Conn_UHF"
+      (at 43.18 52.0696 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:SO_239"
+      (at 45.72 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://www.pasternack.com/images/ProductPDF/PE45478.pdf"
+      (at 45.72 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "coaxial connector (UHF, N-Type)"
+      (at 45.72 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Pasternack"
+      (at 45.72 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "PE45478"
+      (at 45.72 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 45.72 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "6099-PE45478-ND"
+      (at 45.72 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "FAB" ""
+      (at 45.72 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "4"
+      (uuid "a414c280-f2e4-45cd-8e21-c08f2f7993a8"))
+    (pin "5"
+      (uuid "58863381-e132-48db-a2be-15710e4b7d04"))
+    (pin "3"
+      (uuid "bec64962-d306-4be9-b783-2b1bc6b3d6f8"))
+    (pin "1"
+      (uuid "62434f3d-abf4-4310-88a2-017a846493a0"))
+    (pin "2"
+      (uuid "eb06681e-416d-408a-8f85-7a0a8a1e980a"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J1")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:+12V")
+    (at 160.02 109.22 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "06abb8a7-1ecb-4837-9d2b-ea24174f5289")
+    (property "Reference" "#PWR07"
+      (at 160.02 113.03 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "+12V"
+      (at 160.02 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 160.02 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 160.02 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"+12V\""
+      (at 160.02 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "eeb6c7c1-58e3-4b0c-b903-298176078a87"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR07")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:C")
+    (at 144.78 135.89 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0a434e52-3d6b-4234-ae56-c35740695a48")
+    (property "Reference" "C4"
+      (at 144.78 128.27 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ".01 µF"
+      (at 144.78 130.81 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:CAPRR500W50L730T250H650"
+      (at 148.59 134.9248 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
+      (at 144.78 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "CAP FILM 10000PF 10% 63VDC RAD"
+      (at 144.78 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "EPCOS - TKD Electronics"
+      (at 144.78 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "B32529C0103K289"
+      (at 144.78 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 144.78 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "495-2460-1-ND"
+      (at 144.78 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "2"
+      (uuid "9fd797dd-1ec7-4f66-bd84-6276d20186ec"))
+    (pin "1"
+      (uuid "582a9f9e-e15b-4023-90e3-08993df39f91"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "C4")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:MountingHole_Pad")
+    (at 127 85.09 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "0a9712c1-f59f-4b27-a513-c576eaa5a04d")
+    (property "Reference" "J10"
+      (at 129.54 83.8199 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "Hole_Pad"
+      (at 129.54 85.0899 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:Conn_Tp1"
+      (at 127 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "~"
+      (at 127 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Hole Pad with connection"
+      (at 127 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" ""
+      (at 127 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" ""
+      (at 127 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" ""
+      (at 127 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" ""
+      (at 127 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "b6723776-c735-42db-9b45-75e0cd378f1c"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J10")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:1N5819")
+    (at 68.58 77.47 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "0d16dfb8-ca30-4eb1-afac-a23320feb4e1")
+    (property "Reference" "D2"
+      (at 68.2625 71.12 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1N5819"
+      (at 68.2625 73.66 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:D_DO-41_SOD81_P10.16mm_Horizontal"
+      (at 68.58 81.915 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+      (at 68.58 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+      (at 68.58 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "MCC"
+      (at 68.58 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "1N5819-TP"
+      (at 68.58 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 68.58 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "1N5819-TPCT-ND"
+      (at 68.58 77.47 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "07b05f6b-6245-4e43-8e4f-b53ba10ac267"))
+    (pin "2"
+      (uuid "55d3a501-b7f5-4833-aeba-82b115df23d6"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "D2")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:C")
+    (at 93.98 135.89 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "20e7b65f-467d-436b-829f-3ef29feb2398")
+    (property "Reference" "C1"
+      (at 93.98 128.27 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ".01 µF"
+      (at 93.98 130.81 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:CAPRR500W50L730T250H650"
+      (at 97.79 134.9248 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
+      (at 93.98 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "CAP FILM 10000PF 10% 63VDC RAD"
+      (at 93.98 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "EPCOS - TKD Electronics"
+      (at 93.98 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "B32529C0103K289"
+      (at 93.98 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 93.98 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "495-2460-1-ND"
+      (at 93.98 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "2"
+      (uuid "8e5a99ac-844e-4592-b218-5d4f3cfb8279"))
+    (pin "1"
+      (uuid "621a7dd6-8014-4b78-b0a4-05f890c58dd2"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "C1")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:MountingHole_Pad")
+    (at 149.86 85.09 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "24e99efe-a587-4b91-9e2b-95f1e7288a79")
+    (property "Reference" "J11"
+      (at 152.4 83.8199 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "Hole_Pad"
+      (at 152.4 85.0899 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:Conn_Pad_Tp"
+      (at 149.86 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "~"
+      (at 149.86 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Hole Pad with connection"
+      (at 149.86 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" ""
+      (at 149.86 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" ""
+      (at 149.86 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" ""
+      (at 149.86 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" ""
+      (at 149.86 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "0b187489-0a7b-43be-a1d8-177ae7ec776e"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J11")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 46.99 54.61 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "289c3858-8852-4543-89ab-88c7de3d5613")
+    (property "Reference" "#PWR012"
+      (at 46.99 60.96 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 46.99 59.69 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 46.99 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 46.99 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 46.99 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "1f7768c5-d601-4505-a7d5-6b134d3a50f2"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR012")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:Conn_UHF")
+    (at 45.72 101.6 0)
+    (mirror y)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "2932d107-ecf1-4126-bf2c-7a0b1d4a83d6")
+    (property "Reference" "J3"
+      (at 43.18 100.3296 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "Conn_UHF"
+      (at 43.18 102.8696 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:SO_239"
+      (at 45.72 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://www.pasternack.com/images/ProductPDF/PE45478.pdf"
+      (at 45.72 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "coaxial connector (UHF, N-Type)"
+      (at 45.72 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Pasternack"
+      (at 45.72 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "PE45478"
+      (at 45.72 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 45.72 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "6099-PE45478-ND"
+      (at 45.72 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "FAB" ""
+      (at 45.72 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "4"
+      (uuid "92419291-2944-4a0f-8add-184e2cf86875"))
+    (pin "5"
+      (uuid "c4aae49e-f542-4e25-8378-b28dcdfc7021"))
+    (pin "3"
+      (uuid "f4dbde1f-bf16-4b18-8507-9af1e9cfa1a1"))
+    (pin "1"
+      (uuid "99337cea-77ed-4cd2-8063-31832cadc254"))
+    (pin "2"
+      (uuid "b0ff553b-8597-400e-8f55-3eddab022e21"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J3")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:+12V")
+    (at 134.62 109.22 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "2a708f08-28dc-46aa-aad7-d2481c1f182a")
+    (property "Reference" "#PWR06"
+      (at 134.62 113.03 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "+12V"
+      (at 134.62 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 134.62 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 134.62 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"+12V\""
+      (at 134.62 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "93ff6f2a-cd55-4a21-b14c-94f0c69074e7"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR06")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 179.07 48.26 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "2e92263a-8d63-4474-a070-d7793baf0948")
+    (property "Reference" "#PWR02"
+      (at 179.07 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 179.07 53.34 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 179.07 48.26 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 179.07 48.26 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 179.07 48.26 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "92d04188-8bb4-40a6-ad53-76c495c417a9"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR02")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 46.99 97.79 0)
+    (mirror x)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "2e9e652a-3429-4646-b4a7-ce41cf625b1d")
+    (property "Reference" "#PWR015"
+      (at 46.99 91.44 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 46.99 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 46.99 97.79 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 46.99 97.79 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 46.99 97.79 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "07b26f7f-dce3-452d-9b0e-6b6eacb7ef52"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR015")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:1N5819")
+    (at 119.38 123.19 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "305139d8-2d5e-4d2f-9732-7ee65db61cd4")
+    (property "Reference" "D3"
+      (at 119.0625 116.84 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1N5819"
+      (at 119.0625 119.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:D_DO-41_SOD81_P10.16mm_Horizontal"
+      (at 119.38 127.635 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+      (at 119.38 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+      (at 119.38 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "MCC"
+      (at 119.38 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "1N5819-TP"
+      (at 119.38 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 119.38 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "1N5819-TPCT-ND"
+      (at 119.38 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "16889db7-f20e-43fe-961f-a2323dc60aa0"))
+    (pin "2"
+      (uuid "d01bb2c7-69af-4594-a32d-fa759f89accc"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "D3")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:Conn_UHF")
+    (at 195.58 76.2 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "36f4a8e7-5712-4462-995e-71cd8768bad0")
+    (property "Reference" "J4"
+      (at 198.12 74.9296 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "Conn_UHF"
+      (at 198.12 77.4696 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:SO_239"
+      (at 195.58 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://www.pasternack.com/images/ProductPDF/PE45478.pdf"
+      (at 195.58 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "coaxial connector (UHF, N-Type)"
+      (at 195.58 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Pasternack"
+      (at 195.58 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "PE45478"
+      (at 195.58 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 195.58 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "6099-PE45478-ND"
+      (at 195.58 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "FAB" ""
+      (at 195.58 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "4"
+      (uuid "59499982-081a-41f1-be8d-03f2952f29e7"))
+    (pin "5"
+      (uuid "eab00b7d-ebc2-4c7c-9f36-66abf9cae0fe"))
+    (pin "3"
+      (uuid "ad6440ef-9206-4729-8f40-ce63acf08d13"))
+    (pin "1"
+      (uuid "2b766b36-21fb-401c-a430-cf07428f088f"))
+    (pin "2"
+      (uuid "ee07a48b-dc14-4249-a808-c4dcbf289c0a"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J4")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:+12V")
+    (at 58.42 63.5 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "49596138-5f4c-4fab-ae22-dd766e0d892b")
+    (property "Reference" "#PWR03"
+      (at 58.42 67.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "+12V"
+      (at 58.42 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 58.42 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 58.42 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"+12V\""
+      (at 58.42 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "31587b16-d441-4568-8c7e-db2f7fa1c8db"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR03")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:1N5819")
+    (at 93.98 123.19 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "4c48d45c-e5f4-402a-a8a4-4816431c37b3")
+    (property "Reference" "D1"
+      (at 93.6625 116.84 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1N5819"
+      (at 93.6625 119.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:D_DO-41_SOD81_P10.16mm_Horizontal"
+      (at 93.98 127.635 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+      (at 93.98 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+      (at 93.98 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "MCC"
+      (at 93.98 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "1N5819-TP"
+      (at 93.98 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 93.98 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "1N5819-TPCT-ND"
+      (at 93.98 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "6645f58e-9a3c-47f5-897e-cedbec9a5a0b"))
+    (pin "2"
+      (uuid "f735c6a8-4436-4147-a2bd-5e2af02ea53a"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "D1")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:RCJ-021_1")
+    (at 179.07 58.42 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "54790ad4-ea5c-4986-b656-37c8f483315e")
+    (property "Reference" "J7"
+      (at 198.12 58.4199 0)
+      (effects
+        (font
+          (size 1.524 1.524))
+        (justify left)))
+    (property "Value" "RCJ-021"
+      (at 198.12 60.9599 0)
+      (effects
+        (font
+          (size 1.524 1.524))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:CUI_RCJ-021"
+      (at 179.07 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+          (italic yes))
+        (hide yes)))
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/rcj-02.pdf"
+      (at 179.07 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+          (italic yes))
+        (hide yes)))
+    (property "Description" "CONN RCA JACK MONO 3.2MM PCB"
+      (at 179.07 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Same Sky"
+      (at 179.07 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "RCJ-021"
+      (at 179.07 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 179.07 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "CP-1406-ND"
+      (at 179.07 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1A"
+      (uuid "4fd76c18-6188-4cf8-8d79-aa74eec8ebb7"))
+    (pin "2"
+      (uuid "1df9f393-59de-4114-9010-54e6b078e53e"))
+    (pin "1B"
+      (uuid "527557ce-fd4a-475f-9db5-bc0c6d3e6184"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J7")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 46.99 72.39 180)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "54ce655f-3470-4eed-9f6a-3bde38f30222")
+    (property "Reference" "#PWR014"
+      (at 46.99 66.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 46.99 67.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 46.99 72.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 46.99 72.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 46.99 72.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "958711fb-386f-4582-939d-72a35e42b8ae"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR014")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:+12V")
+    (at 83.82 109.22 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "58eb4053-0a91-4f9e-a015-53cb2e7313dc")
+    (property "Reference" "#PWR04"
+      (at 83.82 113.03 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "+12V"
+      (at 83.82 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 83.82 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 83.82 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"+12V\""
+      (at 83.82 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "3759925b-3caf-452b-a8e8-3084a2f2980e"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR04")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:+12V")
+    (at 109.22 109.22 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "5e362032-9d13-4b65-908f-02984c7681c5")
+    (property "Reference" "#PWR05"
+      (at 109.22 113.03 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "+12V"
+      (at 109.22 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 109.22 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 109.22 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"+12V\""
+      (at 109.22 109.22 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "e4a3c59a-1833-4806-ad9c-b628f32b3350"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR05")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 196.85 72.39 0)
+    (mirror x)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "5e49dbcb-1bd9-4bfc-ae3a-62dbfdc77166")
+    (property "Reference" "#PWR017"
+      (at 196.85 66.04 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 196.85 67.31 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 196.85 72.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 196.85 72.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 196.85 72.39 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "c0042d92-48d7-406c-9cda-23b5824190bb"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR017")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:1N5819")
+    (at 170.18 123.19 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "6e5c0fd9-aaa6-4694-a0b3-14b2025cd906")
+    (property "Reference" "D5"
+      (at 169.8625 116.84 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1N5819"
+      (at 169.8625 119.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:D_DO-41_SOD81_P10.16mm_Horizontal"
+      (at 170.18 127.635 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+      (at 170.18 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+      (at 170.18 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "MCC"
+      (at 170.18 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "1N5819-TP"
+      (at 170.18 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 170.18 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "1N5819-TPCT-ND"
+      (at 170.18 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "8646bcb9-e194-4b2d-a1a5-7ac9d3207617"))
+    (pin "2"
+      (uuid "191dac27-3795-4cfa-97c3-3fb9459c6c52"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "D5")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:G2RL-1-E")
+    (at 68.58 58.42 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "706c6305-e621-4ec3-87b4-e4353c2a985b")
+    (property "Reference" "K2"
+      (at 68.58 45.72 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "G2RL-1-E"
+      (at 69.8499 46.99 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:Relay_SPDT_Omron_G2RL-1-E"
+      (at 69.85 46.99 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+      (at 68.58 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "RELAY GEN PURPOSE SPDT 16A 12V"
+      (at 68.58 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Omron"
+      (at 68.58 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "G2RL-14-E DC12"
+      (at 68.58 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 68.58 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "Z2920-ND"
+      (at 68.58 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "12"
+      (uuid "9880017d-694a-4bf6-bf00-238bdc7d672d"))
+    (pin "A2"
+      (uuid "8dba6b23-2515-40b9-8b73-219dde90677f"))
+    (pin "14"
+      (uuid "32c18175-f032-47d9-b7d9-892f7586e5ee"))
+    (pin "A1"
+      (uuid "23849d59-3bba-4957-aa2a-34841799b840"))
+    (pin "11"
+      (uuid "ae1bf1dd-94e9-406e-b9e8-94b090b4c52a"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "K2")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:+12V")
+    (at 142.24 50.8 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "76ec4e6d-deb5-4058-bfdc-10731942f839")
+    (property "Reference" "#PWR018"
+      (at 142.24 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "+12V"
+      (at 142.24 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 142.24 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 142.24 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"+12V\""
+      (at 142.24 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "5070d93c-6278-49b0-8a84-6c87f14234f9"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR018")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:Screw_Terminal_01x08")
+    (at 127 45.72 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "7cd4d790-686d-4081-b0c5-bc239e99968d")
+    (property "Reference" "J8"
+      (at 128.27 41.91 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "Screw_Terminal_01x08"
+      (at 128.27 41.91 90)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:TerminalBlock_Phoenix_MPT-0,5-8-2.54_1x08_P2.54mm_Horizontal"
+      (at 127 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "~"
+      (at 127 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Generic screw terminal, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)"
+      (at 127 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "On Shore Technology"
+      (at 127 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "OSTVN08A150"
+      (at 127 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 127 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "ED10566-ND"
+      (at 127 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "FAB" ""
+      (at 127 45.72 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "3"
+      (uuid "6f3d9f86-4513-493d-b7d1-c32698e603d9"))
+    (pin "6"
+      (uuid "ebad66bb-8b7c-403b-a8b4-e9e5920ea767"))
+    (pin "2"
+      (uuid "98bb945f-b786-4cc1-bdfc-a2b576848e26"))
+    (pin "7"
+      (uuid "9c263887-867e-48d8-bb51-e5d7b59741aa"))
+    (pin "8"
+      (uuid "4129dae8-8d65-44c4-a39d-85e92868f2f9"))
+    (pin "4"
+      (uuid "b120d410-d8eb-406f-b9d6-589b44930f16"))
+    (pin "5"
+      (uuid "0501bbf0-890b-409c-a6b5-b1be2b6ad28c"))
+    (pin "1"
+      (uuid "fe344298-7e2e-45e8-ad0c-71d9e7ca9cbe"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J8")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 46.99 105.41 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "8447e473-4d3c-4c1e-8263-5f40a38c819b")
+    (property "Reference" "#PWR010"
+      (at 46.99 111.76 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 46.99 110.49 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 46.99 105.41 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 46.99 105.41 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 46.99 105.41 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "cfeacd84-e729-40b2-b5a7-43b2fcfdb8b5"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR010")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 179.07 63.5 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "891992be-b802-407b-a86d-d420f3bcbb59")
+    (property "Reference" "#PWR01"
+      (at 179.07 69.85 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 179.07 68.58 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 179.07 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 179.07 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 179.07 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "20d7e7b0-cf27-4004-b12e-9f623b539f16"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR01")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:C")
+    (at 68.58 90.17 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "943961dc-0d4a-43be-af54-a30b82e54bdf")
+    (property "Reference" "C2"
+      (at 68.58 82.55 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ".01 µF"
+      (at 68.58 85.09 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:CAPRR500W50L730T250H650"
+      (at 72.39 89.2048 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
+      (at 68.58 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "CAP FILM 10000PF 10% 63VDC RAD"
+      (at 68.58 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "EPCOS - TKD Electronics"
+      (at 68.58 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "B32529C0103K289"
+      (at 68.58 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 68.58 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "495-2460-1-ND"
+      (at 68.58 90.17 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "2"
+      (uuid "90b042e6-df1a-4477-9dd1-0e68fed1dc4a"))
+    (pin "1"
+      (uuid "5005fcbe-5bec-44f3-8337-e2109f4853b6"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "C2")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:C")
+    (at 142.24 54.61 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "98a74d72-a009-4289-9da9-9570f304bf6f")
+    (property "Reference" "C6"
+      (at 146.05 53.3399 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "47 µF"
+      (at 146.05 55.8799 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Footprint" "RayRigAntSw:CAPRR500W50L730T250H650"
+      (at 143.2052 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/RDE_X7R_X7S_25V-100V_E.pdf"
+      (at 142.24 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "47 µF ±20% 25V Ceramic Capacitor X7S Radial"
+      (at 142.24 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Murata"
+      (at 142.24 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "RDEC71E476MWK1H03B"
+      (at 142.24 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 142.24 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "490-16956-ND"
+      (at 142.24 54.61 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "64f352e1-6560-4777-b844-56e1c2224871"))
+    (pin "2"
+      (uuid "3754daf8-cfab-4873-9a7d-1a12ca972647"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "C6")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 46.99 80.01 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "9907adc0-1784-4d04-8569-17be293fac68")
+    (property "Reference" "#PWR011"
+      (at 46.99 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 46.99 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 46.99 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 46.99 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 46.99 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "8c8a2a19-4dcf-460e-9e28-897cf93d482b"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR011")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:G2RL-1-E")
+    (at 144.78 104.14 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "a8546089-95e2-4171-961d-ee8f8117499d")
+    (property "Reference" "K4"
+      (at 144.78 91.44 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "G2RL-1-E"
+      (at 146.0499 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:Relay_SPDT_Omron_G2RL-1-E"
+      (at 146.05 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+      (at 144.78 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "RELAY GEN PURPOSE SPDT 16A 12V"
+      (at 144.78 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Omron"
+      (at 144.78 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "G2RL-14-E DC12"
+      (at 144.78 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 144.78 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "Z2920-ND"
+      (at 144.78 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "12"
+      (uuid "a87b51f9-bf51-49e9-a86b-6756fcf60bf7"))
+    (pin "A2"
+      (uuid "7a6e730a-91e5-4cb5-a7e1-2470d5d2fc6d"))
+    (pin "14"
+      (uuid "0544758a-7ddb-4dee-9f2b-60af529a1e91"))
+    (pin "A1"
+      (uuid "59969244-5d0c-4ba3-932a-28f02a3a439d"))
+    (pin "11"
+      (uuid "b8217070-614d-4630-9dfe-b215c2710eac"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "K4")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:1N5819")
+    (at 144.78 123.19 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "a86c05cc-30d7-4e4c-bce3-b8bc7cdd91e4")
+    (property "Reference" "D4"
+      (at 144.4625 116.84 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "1N5819"
+      (at 144.4625 119.38 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:D_DO-41_SOD81_P10.16mm_Horizontal"
+      (at 144.78 127.635 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "http://www.vishay.com/docs/88525/1n5817.pdf"
+      (at 144.78 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "40V 1A Schottky Barrier Rectifier Diode, DO-41"
+      (at 144.78 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "MCC"
+      (at 144.78 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "1N5819-TP"
+      (at 144.78 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 144.78 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "1N5819-TPCT-ND"
+      (at 144.78 123.19 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "1d07c4fe-6230-4191-a0ea-0af17dc63fcb"))
+    (pin "2"
+      (uuid "a7451c96-f248-4ff4-96cd-60d111e25edd"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "D4")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:C")
+    (at 170.18 135.89 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "a8a1a08b-fa2c-41a5-9a34-346283890c6a")
+    (property "Reference" "C5"
+      (at 170.18 128.27 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" ".01 µF"
+      (at 170.18 130.81 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" "RayRigAntSw:CAPRR500W50L730T250H650"
+      (at 173.99 134.9248 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://product.tdk.com/en/system/files/dam/doc/product/capacitor/film/mkt/data_sheet/20/20/db/fc_2009/b32520_529.pdf"
+      (at 170.18 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "CAP FILM 10000PF 10% 63VDC RAD"
+      (at 170.18 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "EPCOS - TKD Electronics"
+      (at 170.18 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "B32529C0103K289"
+      (at 170.18 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 170.18 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "495-2460-1-ND"
+      (at 170.18 135.89 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "2"
+      (uuid "b6a77bb1-6b40-4238-8c17-6367f5a9c632"))
+    (pin "1"
+      (uuid "088789b5-4b6b-49be-adba-3ff7d4f4fe5e"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "C5")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 196.85 80.01 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "b36bdbc8-0486-4cd9-9255-bb19f9626dd0")
+    (property "Reference" "#PWR09"
+      (at 196.85 86.36 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 196.85 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 196.85 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 196.85 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 196.85 80.01 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "3c4268a8-847a-447c-891b-c899791198f8"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR09")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:RCJ-021_1")
+    (at 179.07 43.18 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "bef69572-2ae3-42b4-bfd3-d2f3eebdfda3")
+    (property "Reference" "J6"
+      (at 198.12 43.1799 0)
+      (effects
+        (font
+          (size 1.524 1.524))
+        (justify left)))
+    (property "Value" "RCJ-021"
+      (at 198.12 45.7199 0)
+      (effects
+        (font
+          (size 1.524 1.524))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:CUI_RCJ-021"
+      (at 179.07 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+          (italic yes))
+        (hide yes)))
+    (property "Datasheet" "https://www.cuidevices.com/product/resource/rcj-02.pdf"
+      (at 179.07 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27)
+          (italic yes))
+        (hide yes)))
+    (property "Description" "CONN RCA JACK MONO 3.2MM PCB"
+      (at 179.07 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Same Sky"
+      (at 179.07 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "RCJ-021"
+      (at 179.07 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 179.07 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "CP-1406-ND"
+      (at 179.07 43.18 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1A"
+      (uuid "f2a0cd92-4c91-4522-8651-33541139e0fa"))
+    (pin "2"
+      (uuid "aa4d4594-863a-48a5-b9f2-23b0a2a10778"))
+    (pin "1B"
+      (uuid "2d5f02a3-8a1f-40bc-aaf9-611e7354e268"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J6")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:G2RL-1-E")
+    (at 93.98 104.14 90)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "bef9fc44-817b-4ee7-9c27-a2d1098920fa")
+    (property "Reference" "K1"
+      (at 93.98 91.44 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "G2RL-1-E"
+      (at 95.2499 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:Relay_SPDT_Omron_G2RL-1-E"
+      (at 95.25 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+      (at 93.98 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "RELAY GEN PURPOSE SPDT 16A 12V"
+      (at 93.98 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Omron"
+      (at 93.98 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "G2RL-14-E DC12"
+      (at 93.98 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 93.98 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "Z2920-ND"
+      (at 93.98 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "12"
+      (uuid "a5f92749-3877-4aaf-8e34-e053763b0b0e"))
+    (pin "A2"
+      (uuid "e436cbbe-31b4-4355-b663-aa0fd92ea7a6"))
+    (pin "14"
+      (uuid "8ee1223c-aacf-48e9-81c6-dadb8cf20d68"))
+    (pin "A1"
+      (uuid "37696333-7a38-4c96-a83e-4388dfb47948"))
+    (pin "11"
+      (uuid "00d1631c-94e2-4cbf-9cbe-32bfc7e54488"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "K1")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 142.24 58.42 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c1df5b8b-dff9-4c32-a74d-7aebca8db05d")
+    (property "Reference" "#PWR021"
+      (at 142.24 64.77 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 142.24 63.5 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 142.24 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 142.24 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 142.24 58.42 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "4e0e2001-d38d-4b7f-af6a-c2fd6abaabbb"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR021")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:MountingHole_Pad")
+    (at 137.16 85.09 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom no)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "c7e12193-9f1a-42cb-89e4-b81c325e7fb0")
+    (property "Reference" "J9"
+      (at 139.7 83.8199 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "Hole_Pad"
+      (at 139.7 85.0899 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:Conn_Tp1"
+      (at 137.16 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "~"
+      (at 137.16 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Hole Pad with connection"
+      (at 137.16 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" ""
+      (at 137.16 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" ""
+      (at 137.16 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" ""
+      (at 137.16 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" ""
+      (at 137.16 85.09 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "0d374b4b-e5b4-4293-9af4-1f9d361f466a"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J9")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 46.99 46.99 0)
+    (mirror x)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "ca075fff-e4c3-451c-80a8-edfba77daab3")
+    (property "Reference" "#PWR013"
+      (at 46.99 40.64 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 46.99 41.91 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 46.99 46.99 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 46.99 46.99 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 46.99 46.99 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "fdf8f496-9df6-4753-94f7-2cf0ff15d591"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR013")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 196.85 105.41 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "cca6f866-0621-4fd2-81dc-0188b82eb006")
+    (property "Reference" "#PWR08"
+      (at 196.85 111.76 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 196.85 110.49 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 196.85 105.41 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 196.85 105.41 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 196.85 105.41 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "eb5ba258-e903-4150-9087-ee34491f64b2"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR08")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:Conn_UHF")
+    (at 45.72 76.2 0)
+    (mirror y)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "e845face-48cd-4788-addf-cac9dcecf8a8")
+    (property "Reference" "J2"
+      (at 43.18 74.9296 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "Conn_UHF"
+      (at 43.18 77.4696 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:SO_239"
+      (at 45.72 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://www.pasternack.com/images/ProductPDF/PE45478.pdf"
+      (at 45.72 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "coaxial connector (UHF, N-Type)"
+      (at 45.72 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Pasternack"
+      (at 45.72 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "PE45478"
+      (at 45.72 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 45.72 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "6099-PE45478-ND"
+      (at 45.72 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "FAB" ""
+      (at 45.72 76.2 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "4"
+      (uuid "b79ab5de-09ce-4eef-83dd-b76c71b18510"))
+    (pin "5"
+      (uuid "f3746405-9cb9-4c9e-bd82-7fe150c89c3b"))
+    (pin "3"
+      (uuid "b96edcaa-a454-434f-911c-2745b66e0519"))
+    (pin "1"
+      (uuid "7a87f814-1ef8-4687-a9be-65f100131083"))
+    (pin "2"
+      (uuid "29b115e9-0eda-4927-a8b6-543f8e81b271"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J2")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 118.11 50.8 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "ee2b7480-2dbe-4089-8b37-427438a319ba")
+    (property "Reference" "#PWR019"
+      (at 118.11 57.15 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 118.11 55.88 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 118.11 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 118.11 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 118.11 50.8 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "ed696d56-8af7-49a1-a30c-b1fe9689917a"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR019")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 196.85 97.79 0)
+    (mirror x)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f042cedc-fd46-4205-b71c-54fe5bf8c2fa")
+    (property "Reference" "#PWR016"
+      (at 196.85 91.44 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 196.85 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 196.85 97.79 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 196.85 97.79 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 196.85 97.79 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "7bec2c60-d3a8-41d0-8ee7-7a7203055f57"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR016")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:Conn_UHF")
+    (at 195.58 101.6 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f5f4eb9f-0604-442c-951a-b778795acbe5")
+    (property "Reference" "J5"
+      (at 198.12 100.3296 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)))
+    (property "Value" "Conn_UHF"
+      (at 198.12 102.8696 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:SO_239"
+      (at 195.58 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" "https://www.pasternack.com/images/ProductPDF/PE45478.pdf"
+      (at 195.58 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "coaxial connector (UHF, N-Type)"
+      (at 195.58 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Pasternack"
+      (at 195.58 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "PE45478"
+      (at 195.58 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 195.58 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "6099-PE45478-ND"
+      (at 195.58 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "FAB" ""
+      (at 195.58 101.6 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "4"
+      (uuid "84c1bb28-ab55-4b31-84cc-adc89bea8e39"))
+    (pin "5"
+      (uuid "cab67c69-56af-4bd5-88cc-c95975374906"))
+    (pin "3"
+      (uuid "5efab00c-b4a8-4209-827b-245da0271660"))
+    (pin "1"
+      (uuid "8b78937b-27af-41b1-9a9f-0b9a03f770ea"))
+    (pin "2"
+      (uuid "8323bcbc-b24b-47a4-b990-2724c5df96b8"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "J5")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:G2RL-1-E")
+    (at 119.38 104.14 270)
+    (mirror x)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f8c4b33f-1594-4314-a9f0-9004a09a4905")
+    (property "Reference" "K3"
+      (at 119.38 91.44 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "G2RL-1-E"
+      (at 118.1101 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:Relay_SPDT_Omron_G2RL-1-E"
+      (at 118.11 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+      (at 119.38 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "RELAY GEN PURPOSE SPDT 16A 12V"
+      (at 119.38 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Omron"
+      (at 119.38 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "G2RL-14-E DC12"
+      (at 119.38 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 119.38 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "Z2920-ND"
+      (at 119.38 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "12"
+      (uuid "71101160-6d12-4af2-9c85-e40bce525c03"))
+    (pin "A2"
+      (uuid "dcfc2645-4ae0-4889-a8bf-193d0cfcd00e"))
+    (pin "14"
+      (uuid "a2595ab0-ffd5-4c94-935d-2f0741ed30cc"))
+    (pin "A1"
+      (uuid "1929d55d-4daf-4d9d-a138-3fbfdd7c6c9d"))
+    (pin "11"
+      (uuid "77deb62b-3122-449c-8d2f-dc766e7b0430"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "K3")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:G2RL-1-E")
+    (at 170.18 104.14 270)
+    (mirror x)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (uuid "f91d0351-4c8a-4d00-a9b1-dc65271c5008")
+    (property "Reference" "K5"
+      (at 170.18 91.44 90)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Value" "G2RL-1-E"
+      (at 168.9101 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Footprint" "RayRigAntSw:Relay_SPDT_Omron_G2RL-1-E"
+      (at 168.91 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (justify left)
+        (hide yes)))
+    (property "Datasheet" "https://omronfs.omron.com/en_US/ecb/products/pdf/en-g2rl.pdf"
+      (at 170.18 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "RELAY GEN PURPOSE SPDT 16A 12V"
+      (at 170.18 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Manufacturer" "Omron"
+      (at 170.18 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "MPN" "G2RL-14-E DC12"
+      (at 170.18 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier" "DigiKey"
+      (at 170.18 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Supplier_PN" "Z2920-ND"
+      (at 170.18 104.14 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "12"
+      (uuid "4cafed2e-65a2-460e-9882-79d05b46f9e2"))
+    (pin "A2"
+      (uuid "82ad93a4-fb72-4ac0-bd95-aa873962a4c0"))
+    (pin "14"
+      (uuid "e4294c87-b512-41b8-adbb-1dfafef41115"))
+    (pin "A1"
+      (uuid "e6e43229-fc34-4497-8eca-6b7e1bb070f7"))
+    (pin "11"
+      (uuid "a17e4742-eabe-4c2e-bd47-3c37efc46982"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "K5")
+          (unit 1)))))
+  (symbol
+    (lib_id "RayRigAntSw:GND")
+    (at 149.86 87.63 0)
+    (unit 1)
+    (exclude_from_sim no)
+    (in_bom yes)
+    (on_board yes)
+    (dnp no)
+    (fields_autoplaced yes)
+    (uuid "fdd2ce0f-9fdc-42c6-95fa-6e75356eb06f")
+    (property "Reference" "#PWR020"
+      (at 149.86 93.98 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Value" "GND"
+      (at 149.86 92.71 0)
+      (effects
+        (font
+          (size 1.27 1.27))))
+    (property "Footprint" ""
+      (at 149.86 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Datasheet" ""
+      (at 149.86 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+      (at 149.86 87.63 0)
+      (effects
+        (font
+          (size 1.27 1.27))
+        (hide yes)))
+    (pin "1"
+      (uuid "5ea58d84-ee17-4246-92de-a9409778d283"))
+    (instances
+      (project "RayRigAntSw"
+        (path "/67ef746c-0f2c-466b-bed7-afff600e2a8c"
+          (reference "#PWR020")
+          (unit 1)))))
+  (sheet_instances
+    (path "/"
+      (page "1")))
+  (embedded_fonts no))

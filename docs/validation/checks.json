@@ -1,0 +1,18 @@
+{
+  "component_references": 27,
+  "schematic_pcb_pin_net_partitions_equal": true,
+  "local_library_resolution": true,
+  "bom_reference_value_footprint_coverage": true,
+  "all_five_diodes_source_and_gerber_net_and_position": true,
+  "unconnected_pcb_items": 0,
+  "schematic_parity_issues": 0,
+  "retained_drc_clearance_errors": 4,
+  "retained_erc_findings": {
+    "power_pin_not_driven": 2,
+    "unconnected_wire_endpoint": 1,
+    "pin_to_pin": 6
+  },
+  "retained_courtyard_findings": 2,
+  "drill_centers_and_diameters_match": true,
+  "drilled_holes": 141
+}

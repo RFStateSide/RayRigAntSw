@@ -1,0 +1,198 @@
+{
+  "$schema": "https://schemas.kicad.org/erc.v1.json",
+  "coordinate_units": "mm",
+  "date": "2026-10-11T15:07:23-0400",
+  "kicad_version": "9.0.7",
+  "sheets": [
+    {
+      "path": "/",
+      "uuid_path": "/67ef746c-0f2c-466b-bed7-afff600e2a8c",
+      "violations": [
+        {
+          "description": "Input Power pin not driven by any Output Power pins",
+          "items": [
+            {
+              "description": "Symbol #PWR03 Pin 1 [Power input, Line]",
+              "pos": {
+                "x": 0.5842,
+                "y": 0.635
+              },
+              "uuid": "31587b16-d441-4568-8c7e-db2f7fa1c8db"
+            }
+          ],
+          "severity": "error",
+          "type": "power_pin_not_driven"
+        },
+        {
+          "description": "Input Power pin not driven by any Output Power pins",
+          "items": [
+            {
+              "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.635
+              },
+              "uuid": "20d7e7b0-cf27-4004-b12e-9f623b539f16"
+            }
+          ],
+          "severity": "error",
+          "type": "power_pin_not_driven"
+        },
+        {
+          "description": "Unconnected wire endpoint",
+          "items": [
+            {
+              "description": "Horizontal Wire, length 0.0127 mm",
+              "pos": {
+                "x": 0.8636,
+                "y": 1.0922
+              },
+              "uuid": "bb6ca78b-e583-444e-9ab3-8adb8cb1bafe"
+            }
+          ],
+          "severity": "warning",
+          "type": "unconnected_wire_endpoint"
+        },
+        {
+          "description": "Pins of type Unspecified and Passive are connected",
+          "items": [
+            {
+              "description": "Symbol J6 Pin 2 [2, Unspecified, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.4318
+              },
+              "uuid": "aa4d4594-863a-48a5-b9f2-23b0a2a10778"
+            },
+            {
+              "description": "Symbol J8 Pin 7 [Pin_7, Passive, Line]",
+              "pos": {
+                "x": 1.3462,
+                "y": 0.508
+              },
+              "uuid": "9c263887-867e-48d8-bb51-e5d7b59741aa"
+            }
+          ],
+          "severity": "warning",
+          "type": "pin_to_pin"
+        },
+        {
+          "description": "Pins of type Unspecified and Power input are connected",
+          "items": [
+            {
+              "description": "Symbol J6 Pin 1A [1A, Unspecified, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.4572
+              },
+              "uuid": "f2a0cd92-4c91-4522-8651-33541139e0fa"
+            },
+            {
+              "description": "Symbol #PWR02 Pin 1 [Power input, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.4826
+              },
+              "uuid": "92d04188-8bb4-40a6-ad53-76c495c417a9"
+            }
+          ],
+          "severity": "warning",
+          "type": "pin_to_pin"
+        },
+        {
+          "description": "Pins of type Unspecified and Power input are connected",
+          "items": [
+            {
+              "description": "Symbol J6 Pin 1B [1B, Unspecified, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.4826
+              },
+              "uuid": "2d5f02a3-8a1f-40bc-aaf9-611e7354e268"
+            },
+            {
+              "description": "Symbol #PWR02 Pin 1 [Power input, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.4826
+              },
+              "uuid": "92d04188-8bb4-40a6-ad53-76c495c417a9"
+            }
+          ],
+          "severity": "warning",
+          "type": "pin_to_pin"
+        },
+        {
+          "description": "Pins of type Unspecified and Passive are connected",
+          "items": [
+            {
+              "description": "Symbol J7 Pin 2 [2, Unspecified, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.5842
+              },
+              "uuid": "1df9f393-59de-4114-9010-54e6b078e53e"
+            },
+            {
+              "description": "Symbol J8 Pin 6 [Pin_6, Passive, Line]",
+              "pos": {
+                "x": 1.3208,
+                "y": 0.508
+              },
+              "uuid": "ebad66bb-8b7c-403b-a8b4-e9e5920ea767"
+            }
+          ],
+          "severity": "warning",
+          "type": "pin_to_pin"
+        },
+        {
+          "description": "Pins of type Unspecified and Power input are connected",
+          "items": [
+            {
+              "description": "Symbol J7 Pin 1A [1A, Unspecified, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.6096
+              },
+              "uuid": "4fd76c18-6188-4cf8-8d79-aa74eec8ebb7"
+            },
+            {
+              "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.635
+              },
+              "uuid": "20d7e7b0-cf27-4004-b12e-9f623b539f16"
+            }
+          ],
+          "severity": "warning",
+          "type": "pin_to_pin"
+        },
+        {
+          "description": "Pins of type Unspecified and Power input are connected",
+          "items": [
+            {
+              "description": "Symbol J7 Pin 1B [1B, Unspecified, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.635
+              },
+              "uuid": "527557ce-fd4a-475f-9db5-bc0c6d3e6184"
+            },
+            {
+              "description": "Symbol #PWR01 Pin 1 [Power input, Line]",
+              "pos": {
+                "x": 1.7907,
+                "y": 0.635
+              },
+              "uuid": "20d7e7b0-cf27-4004-b12e-9f623b539f16"
+            }
+          ],
+          "severity": "warning",
+          "type": "pin_to_pin"
+        }
+      ]
+    }
+  ],
+  "source": "RayRigAntSw.kicad_sch"
+}

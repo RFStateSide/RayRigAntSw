@@ -1,0 +1,4 @@
+# Exact-byte distribution: preserve approved sources, documents and artifacts.
+# SHA256SUMS hashes these same bytes in the worktree, index and checkout.
+# -text disables Git EOL conversion without disabling normal text diffs.
+* -text

@@ -1,0 +1,133 @@
+{
+  "$schema": "https://schemas.kicad.org/drc.v1.json",
+  "coordinate_units": "mm",
+  "date": "2026-10-11T15:07:23-0400",
+  "kicad_version": "9.0.7",
+  "schematic_parity": [],
+  "source": "RayRigAntSw.kicad_pcb",
+  "unconnected_items": [],
+  "violations": [
+    {
+      "description": "Clearance violation (zone clearance 2.0000 mm; actual 1.7045 mm)",
+      "items": [
+        {
+          "description": "PTH pad 1 [+12V] of C3",
+          "pos": {
+            "x": 88.55,
+            "y": 108.12
+          },
+          "uuid": "c13fb0af-2859-4d99-a3bb-14f4c8bd548d"
+        },
+        {
+          "description": "Zone [GND] on F.Cu and B.Cu, priority 0",
+          "pos": {
+            "x": 32.15,
+            "y": 25.12
+          },
+          "uuid": "e17c84f3-610b-41f2-b146-d2103d212089"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (zone clearance 2.0000 mm; actual 1.7045 mm)",
+      "items": [
+        {
+          "description": "PTH pad 1 [+12V] of C3",
+          "pos": {
+            "x": 88.55,
+            "y": 108.12
+          },
+          "uuid": "c13fb0af-2859-4d99-a3bb-14f4c8bd548d"
+        },
+        {
+          "description": "Zone [GND] on B.Cu, priority 1",
+          "pos": {
+            "x": 32.15,
+            "y": 25.12
+          },
+          "uuid": "e569d4fa-e1ee-4725-b4ee-930dc96d4d43"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (zone clearance 2.0000 mm; actual 1.8223 mm)",
+      "items": [
+        {
+          "description": "PTH pad 2 [TXRX] of C3",
+          "pos": {
+            "x": 93.55,
+            "y": 108.12
+          },
+          "uuid": "551f92fa-01b9-4260-bff1-1379aab754d4"
+        },
+        {
+          "description": "Zone [GND] on F.Cu and B.Cu, priority 0",
+          "pos": {
+            "x": 32.15,
+            "y": 25.12
+          },
+          "uuid": "e17c84f3-610b-41f2-b146-d2103d212089"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Clearance violation (zone clearance 2.0000 mm; actual 1.7045 mm)",
+      "items": [
+        {
+          "description": "PTH pad 2 [TXRX] of C3",
+          "pos": {
+            "x": 93.55,
+            "y": 108.12
+          },
+          "uuid": "551f92fa-01b9-4260-bff1-1379aab754d4"
+        },
+        {
+          "description": "Zone [GND] on B.Cu, priority 1",
+          "pos": {
+            "x": 32.15,
+            "y": 25.12
+          },
+          "uuid": "e569d4fa-e1ee-4725-b4ee-930dc96d4d43"
+        }
+      ],
+      "severity": "error",
+      "type": "clearance"
+    },
+    {
+      "description": "Footprint has malformed courtyard (self-intersecting)",
+      "items": [
+        {
+          "description": "Footprint J6",
+          "pos": {
+            "x": 43.15,
+            "y": 149.12
+          },
+          "uuid": "983fa0a1-7758-4fb6-a210-0eaafa23537c"
+        }
+      ],
+      "severity": "error",
+      "type": "malformed_courtyard"
+    },
+    {
+      "description": "Footprint has malformed courtyard (self-intersecting)",
+      "items": [
+        {
+          "description": "Footprint J6",
+          "pos": {
+            "x": 43.15,
+            "y": 149.12
+          },
+          "uuid": "983fa0a1-7758-4fb6-a210-0eaafa23537c"
+        }
+      ],
+      "severity": "error",
+      "type": "malformed_courtyard"
+    }
+  ]
+}

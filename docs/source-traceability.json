@@ -1,0 +1,11 @@
+{
+  "preparation": "P2-prep-01",
+  "date": "2026-10-11",
+  "baseline_commit": "16a368223ca7a0ed1fe5bd94f67c9646acec9313",
+  "baseline": "uncommitted corrected working files; historical PCB artwork v2.0 / schematic 1.1",
+  "files": {
+    "RigAmpAntSw.kicad_sch": "4ce157bbdb95d8fb660ffd1c566b932785b72247d9967691f4a7c209c9dbddaa",
+    "RigAmpAntSw.kicad_pcb": "8bbcdad61332a58799a611025a694d77e97655a36e99be5f94f040c0de775b4e",
+    "RigAmpAntSw.kicad_pro": "037e6f543ee0e4a75eae1705d95658433af97e58f0373eae4f1608fc1eee4380"
+  }
+}
